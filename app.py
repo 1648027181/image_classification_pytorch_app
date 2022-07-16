@@ -10,11 +10,9 @@ st.write("")
 option = st.selectbox(
      'Choose the model you want to use?',
      ('resnet50', 'resnet101', 'densenet121','shufflenet_v2_x0_5','mobilenet_v2'))
-st.write("")
-st.write("")
-st.subheader("you alse can select some image")
+""
 option2 = st.selectbox(
-     '',
+     'you can select some image',
      ('image_dog', 'image_snake'))
 
 file_up = st.file_uploader("Upload an image", type="jpg")
