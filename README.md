@@ -1,34 +1,13 @@
 # Image Classification Web Application :cat: :dog:
 
-## Medium Post
-Check out my Medium post "Create an Image Classification Web App using PyTorch and Streamlit" [here](https://towardsdatascience.com/create-an-image-classification-web-app-using-pytorch-and-streamlit-f043ddf00c24?source=friends_link&sk=a55e2d36eb8103aefdbb6420daa4cb7a).
+## 功能说明
+使用pytorch自带的模型和预训练权重制作web服务器，别人可以通过上传照片在进行预测分类结果。整理流程是先本地搭建好环境，可以运行出本地网页进行测试，之后部署成为服务器，任何人都可以通过链接进行测试。这一步主要使用streamlit cloud。
 
-## Table of Content
-  * [Overview](#overview)
-  * [Motivation](#motivation)
-  * [Procedure](#procedure)
-  * [Model](#model)
-  * [Installation](#installation)
-  
 
-## Overview
-This is a simple image classification web application, using both Streamlit and PyTorch.
+## 安装步骤如下
 
-## Motivation
-For people who are not experts at Django or Flask, Streamlit can be a good alternative to build custom Python web apps for data science. I chose image classification as the task here because computer vision is one of the most popular areas of AI currently, powered by the advancement of deep learning algorithms.
-
-## Procedure
-  * Install Streamlit
-  * Build UI
-  * Build Model
-  * Test Results
-  * Next Steps
-  
-## Model
-I have chosen the pretrained ResNet101 model to perform classification.
-  
-## Installation
-```bash
-pip install -r requirements.txt
-```
+conda create -n web python=3.7
+activate web
+conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
+pip install streamlit
 
