@@ -1,7 +1,7 @@
 # Image Classification Web Application :cat: :dog:
 
 ## 功能说明
-使用pytorch自带的模型和预训练权重制作web服务器，别人可以通过上传照片在进行预测分类结果。整理流程是先本地搭建好环境，可以运行出本地网页进行测试，之后部署成为服务器，任何人都可以通过链接进行测试。这一步主要使用streamlit cloud。
+使用pytorch自带的模型和预训练权重制作web服务器，别人可以通过上传照片在进行预测分类结果。整理流程是先本地搭建好环境，可以运行出本地网页进行测试，之后部署成为服务器，任何人都可以通过链接进行测试。这一步主要使用streamlit cloud。详细讲解请到csdn中查看https://blog.csdn.net/cp1314971/article/details/125832450?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22125832450%22%2C%22source%22%3A%22cp1314971%22%7D&ctrtid=LjRZu
 
 
 ## 安装步骤如下
